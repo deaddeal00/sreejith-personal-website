@@ -7,7 +7,7 @@ $message= $_POST['message'];
 $to = "sreejithn875@mail.com";
 $subject = "Mail From website";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
-$headers = "From: sreejiththottuvazhiyil@gmail.com" . "\r\n" .
+$headers = "From:https://deaddeal00.github.io/sreejith-personal-website/" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
